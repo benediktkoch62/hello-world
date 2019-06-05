@@ -1,6 +1,6 @@
 public class HelloWorld {
 
-    private myMethod(String str) {
+    public String myMethod(String str) {
         return (str);
     }
         
