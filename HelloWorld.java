@@ -5,9 +5,10 @@ public class HelloWorld {
     }
         
     public static void main(String[] args) {
-        // Prints "Hello, World" to the terminal window.
-        
-        System.out.println("Hello " + args[0]);
+        // Prints "Hello ..." to the terminal window.
+        for (int i = 0; i < args.length; i++) {
+            System.out.println("Hello " + myMethod(args[i]));   
+        }
     }
 
 }
